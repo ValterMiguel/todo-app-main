@@ -1,0 +1,178 @@
+/* For mobile phones: */
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .header {
+    height: 35vh;
+    width: 100%;
+  }
+  .main {
+    top: 4rem;
+    position: absolute;
+    margin: auto;
+    max-height: 80vh;
+    width: 555px;
+    left: 32rem;
+    background-color: var(--app-background-color);
+  }
+  .main-drag-and-drop {
+    bottom: 5rem;
+    position: absolute;
+    margin: auto;
+    height: auto;
+    width: 550px;
+    left: 32rem;
+  }
+  .main-drag-and-drop p {
+    text-align: center;
+  }
+
+  .todos-header {
+    background-color: #555;
+    padding: 30px 0px;
+  }
+  .todos-header a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+  }
+  .todos-header-right {
+    float: right;
+  }
+  .add-todo-container {
+    margin-top: 2rem;
+  }
+  input {
+    font-size: 18px;
+    display: block;
+    padding: 15px 0 15px 60px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: var(--font-color);
+    background-color: var(--background-secundary);
+    border-radius: 5px;
+  }
+  .todos-container {
+    max-height: 20rem;
+    display: flex;
+    max-height: 20rem;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .todos-card {
+    width: 555px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  .main .main-drag-and-drop {
+    position: relative;
+    left: 0rem;
+    top: 1rem;
+    height: auto;
+    min-height: 5rem;
+  }
+  .tab-content {
+    width: 550px;
+    /* border: 0.5px solid crimson; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow-y: auto;
+  }
+
+  .drag-drop-container {
+    width: 100%;
+    overflow-y: auto;
+    max-height: 15rem;
+    min-height: 0rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  .drag-drop-container p {
+    text-align: left;
+  }
+  .todos-footer {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+  }
+  .todos-footer-content {
+    border-top: 0.1px solid #eee;
+    width: 550px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1.5fr;
+  }
+  .tab-content .todo-item {
+    margin: 1px;
+    max-height: 20rem;
+  }
+  .left {
+    padding: 10px 5px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .center {
+    padding: 10px 5px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .tab-links {
+    position: relative;
+    display: inline;
+  }
+  .center span {
+    cursor: pointer;
+    padding: 10px;
+  }
+  .right {
+    padding: 10px 5px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .right span {
+    cursor: pointer;
+  }
+
+  /* TODO ITEM ELEMENTS*/
+  .todo-item {
+    display: grid;
+    grid-template-columns: 0.2fr 2fr 0.3fr;
+    padding: 20px 0 0px 50px;
+    width: 99%;
+    box-sizing: border-box;
+    border: none;
+    color: var(--font-color);
+    background-color: #f1f1f1;
+    border-bottom: 1px solid var(--border);
+    min-height: 7vh;
+    max-height: 12vh;
+    cursor: pointer;
+  }
+
+  .todo-item .todo-circle {
+    position: relative;
+  }
+  .todo-item img {
+    position: relative;
+    cursor: pointer;
+    left: 1rem;
+    cursor: pointer;
+  }
+  .todo-item p {
+    position: relative;
+    cursor: pointer;
+    right: 2rem;
+    bottom: 0.1rem;
+    font-size: 18px;
+  }
+}

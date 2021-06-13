@@ -1,0 +1,15 @@
+:root {
+  --background-primary: hsl(236, 33%, 92%);
+  --background-secundary: hsl(0, 0%, 98%);
+  --font-color: hsl(235, 24%, 19%);
+  --border: #ddd;
+  --title-color: #f1f1f1;
+}
+.theme-dark {
+  --background-primary: hsl(235, 21%, 11%);
+  --background-secundary: hsl(235, 24%, 19%);
+  --border: hsl(237, 14%, 26%);
+  --font-color: hsl(234, 39%, 85%);
+  --text-decoration: hsl(234, 11%, 52%);
+  --title-color: #f1f1f1;
+}

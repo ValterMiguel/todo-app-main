@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.5px solid var(--border);
+  border-radius: 50%;
+  background: var(--background-secundary);
+  position: absolute;
+  left: 1.2rem;
+  margin-top: 0.7rem;
+  cursor: pointer;
+}
+.tab_active {
+  color: hsl(220, 98%, 61%);
+}
+
+.todo-circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.5px solid var(--border);
+  border-radius: 50%;
+  background: var(--background-primary);
+  position: relative;
+  cursor: pointer;
+  left: -2rem;
+  bottom: 0.2rem;
+}
+
+.todo-circle:hover {
+  border: 1px solid
+    linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+.todo-circle img {
+  margin-left: -9.5px;
+  margin-top: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: var(--text-decoration);
+  color: var(--text-decoration);
+}
+
+.active {
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
