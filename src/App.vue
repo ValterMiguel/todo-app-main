@@ -1,8 +1,8 @@
 <template>
   <div id="app" :class="{ 'theme-dark': darkMode }">
     <div class="header">
-      <img src="./assets/bg/bg-desktop-light.jpg" v-if="darkMode" />
-      <img src="./assets/bg/bg-desktop-dark.jpg" v-else />
+      <img src="./assets/bg/bg-desktop-dark.jpg" v-if="darkMode" />
+      <img src="./assets/bg/bg-desktop-light.jpg" v-else />
     </div>
     <div class="main">
       <div class="todos-header">

@@ -1,7 +1,7 @@
 <template>
   <div class="icon-container" @click="darkMode = !darkMode">
-    <img src="../assets/icons/icon-moon.svg" v-if="darkMode" />
-    <img src="../assets/icons/icon-sun.svg" v-else />
+    <img src="../assets/icons/icon-sun.svg" v-if="darkMode" />
+    <img src="../assets/icons/icon-moon.svg" v-else />
   </div>
 </template>
 
